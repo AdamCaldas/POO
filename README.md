@@ -6,6 +6,8 @@
 - Márcio da Costa Ferreira Junior  - 01596976
 - Wesley Ruan de Lima Silva - 01555915
 
+> ⚠️ **Estado atual do repositório**: nesta branch existe apenas este `README.md`. O código-fonte (`src/`) e o `pom.xml` descritos abaixo **não estão versionados aqui**; os comandos de build/execução valem para o projeto completo, depois que esses arquivos forem adicionados.
+
 ## 📚 Sobre o Projeto
 
 Sistema de gestão de empréstimos da Biblioteca Municipal desenvolvido em Java, implementando todos os pilares da Orientação a Objetos (OO): Encapsulamento, Herança, Polimorfismo e Abstração, além de demonstrar os conceitos de Agregação e Composição.
@@ -22,6 +24,17 @@ O projeto demonstra em código Java os pilares de OO:
 - ✅ **Composição**: Livro compõe Capítulos (dependência de vida)
 
 ## 🏗️ Arquitetura e Estrutura
+
+### Estrutura de pastas esperada
+
+```
+.
+├── pom.xml                      # Build Maven (Java 21, JUnit 5)
+├── README.md
+└── src
+    ├── main/java/br/recife/biblioteca/   # Código (pacotes abaixo)
+    └── test/java/br/recife/biblioteca/modelo/BibliotecaTest.java
+```
 
 ### Packages
 
@@ -353,7 +366,7 @@ Todos os casos de uso mínimos foram implementados:
 
 ## 👨‍💻 Autor
 
-**Emanuel Dev**
+Grupo listado em "Integrantes do grupo", no início deste arquivo.
 
 Sistema desenvolvido como atividade prática para demonstração dos pilares de Orientação a Objetos.
 
